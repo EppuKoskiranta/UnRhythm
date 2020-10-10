@@ -71,7 +71,7 @@ public class UIScript: MonoBehaviour
         gameUI.SetActive(true);
         started = true;
         mainMenuUI.SetActive(false);
-        SongMaster.instance.Play();
+        //SongMaster.instance.Play();
     }
 
     public void SetScore(long score)

@@ -39,27 +39,54 @@ public class InputMaster : MonoBehaviour
 
     void ReadInputs()
     {
+        //if (Input.GetKeyDown(KeyCode.D))
+        //{
+        //    SongMaster.instance.HitKey(NoteKey.LEFTLEFT);
+        //}
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    SongMaster.instance.HitKey(NoteKey.LEFT);
+        //}
+        //if (Input.GetKeyDown(KeyCode.J))
+        //{
+        //    SongMaster.instance.HitKey(NoteKey.RIGHT);
+        //}
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    SongMaster.instance.HitKey(NoteKey.RIGHTRIGHT);
+        //}
+
+
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    SongMaster.instance.PauseToggle();
+        //}
+
+
+
+
         if (Input.GetKeyDown(KeyCode.D))
         {
-            SongMaster.instance.HitKey(NoteKey.LEFTLEFT);
+            SongMaster3D.instance.HitKey(NoteKey.LEFTLEFT);
         }
         if (Input.GetKeyDown(KeyCode.F))
         {
-            SongMaster.instance.HitKey(NoteKey.LEFT);
+            SongMaster3D.instance.HitKey(NoteKey.LEFT);
         }
         if (Input.GetKeyDown(KeyCode.J))
         {
-            SongMaster.instance.HitKey(NoteKey.RIGHT);
+            SongMaster3D.instance.HitKey(NoteKey.RIGHT);
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
-            SongMaster.instance.HitKey(NoteKey.RIGHTRIGHT);
+            SongMaster3D.instance.HitKey(NoteKey.RIGHTRIGHT);
         }
 
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SongMaster.instance.PauseToggle();
+            SongMaster3D.instance.PauseToggle();
         }
+
     }
 }
