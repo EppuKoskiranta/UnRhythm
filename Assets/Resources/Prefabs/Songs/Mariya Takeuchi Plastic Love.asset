@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a548ef8c6b38284ab93b4d18f992fae, type: 3}
+  m_Name: Mariya Takeuchi Plastic Love
+  m_EditorClassIdentifier: 
+  audio: {fileID: 8300000, guid: e64e0c5292018c746bb8d711fa2aef83, type: 3}
+  length: 476.94366
+  notes:
+  - timeStamp: 10
+    key: 2
+  - timeStamp: 12
+    key: 0
+  - timeStamp: 13
+    key: 0
+  - timeStamp: 14
+    key: 0
+  - timeStamp: 15
+    key: 0
+  - timeStamp: 16
+    key: 0
+  - timeStamp: 17
+    key: 0
+  - timeStamp: 18
+    key: 0
+  - timeStamp: 19
+    key: 0
+  - timeStamp: 20
+    key: 0
