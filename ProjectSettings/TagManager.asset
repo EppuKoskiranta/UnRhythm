@@ -9,6 +9,10 @@ TagManager:
   - Hitbar
   - HitbarsContainer
   - SongMaster3D
+  - Hitbar1
+  - Hitbar2
+  - Hitbar3
+  - Hitbar4
   layers:
   - Default
   - TransparentFX

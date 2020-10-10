@@ -55,8 +55,6 @@ public class UIScript: MonoBehaviour
         OnPressAnyKeyToStart();
     }
 
-
-
     public void OnPressAnyKeyToStart()
     {
         if (Input.anyKeyDown && !started)
@@ -71,7 +69,7 @@ public class UIScript: MonoBehaviour
         gameUI.SetActive(true);
         started = true;
         mainMenuUI.SetActive(false);
-        //SongMaster.instance.Play();
+        SongMaster3D.instance.Play();
     }
 
     public void SetScore(long score)
@@ -101,5 +99,13 @@ public class UIScript: MonoBehaviour
     public void UnPause()
     {
         pauseMenuUI.SetActive(false);
+    }
+
+    public void MainMenu()
+    {
+        pauseMenuUI.SetActive(false);
+        mainMenuUI.SetActive(true);
+        gameUI.SetActive(false);
+        started = false;
     }
 }

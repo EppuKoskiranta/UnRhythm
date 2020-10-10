@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,7 +62,7 @@ public class SongMaster3D : MonoBehaviour
     public bool paused = true;
     public float playbackSpeed = 1.0f;
     public float noteApproachTime = 5f;
-
+    bool in_menu = true;
 
     public void Awake()
     {
@@ -92,7 +93,6 @@ public class SongMaster3D : MonoBehaviour
     private void Start()
     {
         LoadSongWithName("Mariya Takeuchi Plastic Love");
-        Play();
     }
 
     private void Update()
@@ -145,6 +145,7 @@ public class SongMaster3D : MonoBehaviour
                 UIScript.instance.SetScore(0);
                 UIScript.instance.SetPercentage(0);
                 AudioMaster.instance.StartSong();
+                in_menu = false;
             }
         }
         else
@@ -156,6 +157,10 @@ public class SongMaster3D : MonoBehaviour
 
     public void PauseToggle()
     {
+        if (in_menu)
+        {
+            return;
+        }
         if (paused)
         {
             UnPause();
@@ -194,6 +199,13 @@ public class SongMaster3D : MonoBehaviour
         }
     }
 
+    public void GoToMainMenu()
+    {
+        UIScript.instance.MainMenu();
+        in_menu = true;
+        Restart();
+    }
+
 
     public void Restart()
     {
@@ -203,7 +215,12 @@ public class SongMaster3D : MonoBehaviour
         percentProgress = 0;
         combo = 0;
         score = 0;
-        AudioMaster.instance.UnPauseSong();
+        while (activeNotes.Count > 0)
+        {
+            GameObject.Destroy(activeNotes[0].gameObject);
+            activeNotes.RemoveAt(0);
+        }
+        SetupNotes();
     }
 
 
@@ -302,7 +319,7 @@ public class SongMaster3D : MonoBehaviour
 
     private void SpawnNotes()
     {
-        for (int i = 0; i < 10; ++i)
+        for (int i = noteCounter; i < 10 + noteCounter; ++i)
         {
             if (i < song.notes.Length)
             {
