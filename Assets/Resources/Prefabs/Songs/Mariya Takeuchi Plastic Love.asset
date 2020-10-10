@@ -9,29 +9,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a548ef8c6b38284ab93b4d18f992fae, type: 3}
+  m_Script: {fileID: 11500000, guid: 7592437d84bac1e47983d719e93ec60a, type: 3}
   m_Name: Mariya Takeuchi Plastic Love
   m_EditorClassIdentifier: 
-  audio: {fileID: 8300000, guid: e64e0c5292018c746bb8d711fa2aef83, type: 3}
+  audio: {fileID: 8300000, guid: 929d30c07d3b9714788688d6d97de198, type: 3}
   length: 476.94366
   notes:
+  - timeStamp: 6
+    key: 0
+  - timeStamp: 7
+    key: 0
+  - timeStamp: 8
+    key: 0
   - timeStamp: 10
-    key: 2
+    key: 0
   - timeStamp: 12
-    key: 0
+    key: 1
   - timeStamp: 13
-    key: 0
+    key: 3
   - timeStamp: 14
-    key: 0
-  - timeStamp: 15
-    key: 0
-  - timeStamp: 16
-    key: 0
+    key: 2
   - timeStamp: 17
-    key: 0
-  - timeStamp: 18
-    key: 0
-  - timeStamp: 19
-    key: 0
+    key: 2
   - timeStamp: 20
-    key: 0
+    key: 3
+  - timeStamp: 25
+    key: 1
