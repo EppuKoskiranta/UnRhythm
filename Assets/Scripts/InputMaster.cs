@@ -69,21 +69,25 @@ public class InputMaster : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             SongMaster3D.instance.HitKey(NoteKey.LEFTLEFT);
+            AudioMaster.instance.PlayHitSound();
             GameObject.FindGameObjectWithTag("Hitbar1").GetComponent<Animator>().SetTrigger("KeyDown");
         }
         if (Input.GetKeyDown(KeyCode.F))
         {
             SongMaster3D.instance.HitKey(NoteKey.LEFT);
+            AudioMaster.instance.PlayHitSound();
             GameObject.FindGameObjectWithTag("Hitbar2").GetComponent<Animator>().SetTrigger("KeyDown");
         }
         if (Input.GetKeyDown(KeyCode.J))
         {
             SongMaster3D.instance.HitKey(NoteKey.RIGHT);
+            AudioMaster.instance.PlayHitSound();
             GameObject.FindGameObjectWithTag("Hitbar3").GetComponent<Animator>().SetTrigger("KeyDown");
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
             SongMaster3D.instance.HitKey(NoteKey.RIGHTRIGHT);
+            AudioMaster.instance.PlayHitSound();
             GameObject.FindGameObjectWithTag("Hitbar4").GetComponent<Animator>().SetTrigger("KeyDown");
         }
 

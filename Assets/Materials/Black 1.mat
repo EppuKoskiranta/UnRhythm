@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Black 1
-  m_Shader: {fileID: 4800000, guid: 72c2fa4095626e14ba5febc5fe1cd02f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 681bf941a3f734e4f97616e29ac31945, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 462a9014a0d4a5b4d931a0ca08dc5b11, type: 3}
+        m_Texture: {fileID: 2800000, guid: 732a2f56068b3724e90fd5cb0c571250, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

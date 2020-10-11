@@ -13,9 +13,6 @@ public class MeshGenerator : MonoBehaviour
     int[] m_triangles;
     Color[] m_colors;
 
-    public int grid_width = 20;
-    public int grid_length = 20;
-
     public int mountain_width = 100;
     public int mountain_length = 100;
 
@@ -39,7 +36,7 @@ public class MeshGenerator : MonoBehaviour
     [Range(0, 6)]
     public int levelOfDetail;
     public float noiseScale;
-
+    [Range(1, 20)]
     public int octaves;
     [Range(0, 1)]
     public float persistance;

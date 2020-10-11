@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TerrainMaterial
   m_Shader: {fileID: 4800000, guid: b52aed5a296dd274880421b73a98a9e5, type: 3}
-  m_ShaderKeywords: _REMOVEDIAG_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,12 +68,12 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RemoveDiag: 1
+    - _RemoveDiag: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WireframeVal: 0.041
+    - _WireframeVal: 0.012445105
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:

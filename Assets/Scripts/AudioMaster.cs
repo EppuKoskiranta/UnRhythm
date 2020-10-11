@@ -9,6 +9,7 @@ public class AudioMaster : MonoBehaviour
 
     //References
     public AudioSource audioSource;
+    public AudioSource hitsound_src;
 
     //Song values
     [Range(0, 1)]
@@ -37,7 +38,6 @@ public class AudioMaster : MonoBehaviour
         #endregion
 
         audioSource = GetComponent<AudioSource>();
-
 
     }
 
@@ -78,7 +78,10 @@ public class AudioMaster : MonoBehaviour
         audioSource.volume = masterVolume * songVolume;
     }
 
-
+    public void PlayHitSound()
+    {
+        hitsound_src.Play();
+    }
 
 
 }
