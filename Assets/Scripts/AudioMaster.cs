@@ -19,6 +19,8 @@ public class AudioMaster : MonoBehaviour
 
     public float playbackSpeed = 1.0f;
 
+    public bool muted = false;
+
 
     private void Awake()
     {
@@ -83,5 +85,11 @@ public class AudioMaster : MonoBehaviour
         hitsound_src.Play();
     }
 
+    public void ToggleMute()
+    {
+        muted = !muted;
+
+        audioSource.mute = muted;
+    }
 
 }

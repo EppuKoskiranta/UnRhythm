@@ -15,139 +15,203 @@ MonoBehaviour:
   audio: {fileID: 8300000, guid: 929d30c07d3b9714788688d6d97de198, type: 3}
   length: 476.94366
   notes:
-  - timeStamp: 12.5
+  - timeStamp: 6
+    key: 2
+  - timeStamp: 6
+    key: 2
+  - timeStamp: 7
+    key: 0
+  - timeStamp: 8
+    key: 0
+  - timeStamp: 10
+    key: 1
+  - timeStamp: 10
+    key: 1
+  - timeStamp: 11
+    key: 1
+  - timeStamp: 11
+    key: 2
+  - timeStamp: 11
+    key: 2
+  - timeStamp: 12
     key: 0
   - timeStamp: 13
-    key: 1
+    key: 0
   - timeStamp: 14
     key: 2
-  - timeStamp: 14
-    key: 3
   - timeStamp: 15
-    key: 1
-  - timeStamp: 16
+    key: 0
+  - timeStamp: 15
     key: 1
   - timeStamp: 17
     key: 2
   - timeStamp: 18
-    key: 0
-  - timeStamp: 19
-    key: 3
-  - timeStamp: 19
-    key: 1
-  - timeStamp: 19.6
     key: 2
   - timeStamp: 20
+    key: 2
+  - timeStamp: 20
+    key: 0
+  - timeStamp: 20
+    key: 0
+  - timeStamp: 21
     key: 1
   - timeStamp: 21
     key: 2
   - timeStamp: 21
     key: 0
-  - timeStamp: 21.5
-    key: 3
-  - timeStamp: 22.4
-    key: 0
-  - timeStamp: 24
-    key: 0
+  - timeStamp: 23
+    key: 2
   - timeStamp: 25
-    key: 0
+    key: 2
   - timeStamp: 26
     key: 1
-  - timeStamp: 27
+  - timeStamp: 28
+    key: 0
+  - timeStamp: 28
     key: 2
   - timeStamp: 28
-    key: 3
+    key: 0
   - timeStamp: 29
-    key: 3
+    key: 0
   - timeStamp: 30
     key: 2
-  - timeStamp: 31
+  - timeStamp: 32
+    key: 1
+  - timeStamp: 32
     key: 2
   - timeStamp: 32
-    key: 3
-  - timeStamp: 33
-    key: 2
+    key: 1
   - timeStamp: 34
-    key: 0
+    key: 1
+  - timeStamp: 35
+    key: 1
+  - timeStamp: 35
+    key: 2
   - timeStamp: 35
     key: 1
   - timeStamp: 36
     key: 1
-  - timeStamp: 37
-    key: 3
   - timeStamp: 38
-    key: 1
+    key: 0
+  - timeStamp: 39
+    key: 2
   - timeStamp: 39
     key: 0
   - timeStamp: 40
     key: 0
+  - timeStamp: 40
+    key: 2
   - timeStamp: 41
+    key: 1
+  - timeStamp: 42
     key: 0
-  - timeStamp: 4
-    key: 2
-  - timeStamp: 42.6
-    key: 3
-  - timeStamp: 42.6
-    key: 1
-  - timeStamp: 43.5
+  - timeStamp: 42
     key: 0
-  - timeStamp: 43.5
-    key: 1
-  - timeStamp: 45
-    key: 2
-  - timeStamp: 45
-    key: 3
-  - timeStamp: 45
-    key: 2
-  - timeStamp: 45
-    key: 2
-  - timeStamp: 50
-    key: 2
-  - timeStamp: 50.5
-    key: 1
-  - timeStamp: 50.7
-    key: 1
-  - timeStamp: 50.9
-    key: 1
-  - timeStamp: 60.2
+  - timeStamp: 43
     key: 0
-  - timeStamp: 60.5
-    key: 3
+  - timeStamp: 44
+    key: 2
+  - timeStamp: 45
+    key: 0
+  - timeStamp: 46
+    key: 1
+  - timeStamp: 47
+    key: 0
+  - timeStamp: 47
+    key: 1
+  - timeStamp: 47
+    key: 2
+  - timeStamp: 47
+    key: 2
+  - timeStamp: 47
+    key: 0
+  - timeStamp: 48
+    key: 1
+  - timeStamp: 48
+    key: 1
+  - timeStamp: 49
+    key: 0
+  - timeStamp: 52
+    key: 1
+  - timeStamp: 53
+    key: 1
+  - timeStamp: 54
+    key: 2
+  - timeStamp: 54
+    key: 2
+  - timeStamp: 55
+    key: 0
+  - timeStamp: 55
+    key: 1
+  - timeStamp: 56
+    key: 0
+  - timeStamp: 57
+    key: 0
+  - timeStamp: 57
+    key: 0
+  - timeStamp: 58
+    key: 1
+  - timeStamp: 59
+    key: 1
+  - timeStamp: 59
+    key: 2
+  - timeStamp: 60
+    key: 1
   - timeStamp: 61
+    key: 0
+  - timeStamp: 62
+    key: 2
+  - timeStamp: 62
+    key: 2
+  - timeStamp: 62
     key: 1
-  - timeStamp: 61.7
+  - timeStamp: 62
     key: 1
   - timeStamp: 63
-    key: 3
+    key: 2
+  - timeStamp: 63
+    key: 2
   - timeStamp: 64
     key: 1
   - timeStamp: 65
     key: 2
-  - timeStamp: 68
+  - timeStamp: 65
+    key: 2
+  - timeStamp: 66
+    key: 1
+  - timeStamp: 67
     key: 0
-  - timeStamp: 69
-    key: 3
   - timeStamp: 70
+    key: 2
+  - timeStamp: 70
+    key: 0
+  - timeStamp: 71
+    key: 1
+  - timeStamp: 71
     key: 2
   - timeStamp: 71
     key: 1
-  - timeStamp: 72
-    key: 0
   - timeStamp: 73
-    key: 3
-  - timeStamp: 74
+    key: 2
+  - timeStamp: 73
     key: 1
   - timeStamp: 74
-    key: 0
+    key: 1
   - timeStamp: 75
     key: 2
-  - timeStamp: 75
-    key: 3
-  - timeStamp: 76
-    key: 0
-  - timeStamp: 76
+  - timeStamp: 77
+    key: 2
+  - timeStamp: 77
+    key: 1
+  - timeStamp: 77
+    key: 1
+  - timeStamp: 78
     key: 2
   - timeStamp: 78
-    key: 3
+    key: 0
+  - timeStamp: 78
+    key: 0
+  - timeStamp: 78
+    key: 2
   - timeStamp: 78
     key: 1

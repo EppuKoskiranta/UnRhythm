@@ -261,24 +261,26 @@ public class SongMaster3D : MonoBehaviour
 
 
                 float difference = Mathf.Abs(progress - nextNote.timeStamp);
-                NextNote();
                 if (difference <= perfectHit)
                 {
                     score += Mathf.FloorToInt(scoreMultiplier * perfectScore);
+                    ScorePopUpManager.instance.Spawn300((int)nextNote.key);
                     Debug.Log("Perfect hit");
                 }
                 else if (difference <= normalHit)
                 {
                     score += Mathf.FloorToInt(scoreMultiplier * normalScore);
+                    ScorePopUpManager.instance.Spawn100((int)nextNote.key);
                     Debug.Log("Normal hit");
                 }
                 else if (difference <= badHit)
                 {
                     score += Mathf.FloorToInt(scoreMultiplier * badScore);
+                    ScorePopUpManager.instance.Spawn50((int)nextNote.key);
                     Debug.Log("Bad hit");
                 }
 
-
+                NextNote();
                 UIScript.instance.SetCombo(combo);
                 UIScript.instance.SetScore(score);
             }
